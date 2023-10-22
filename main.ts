@@ -27,3 +27,4 @@ let paragraph: HTMLElement = document.getElementById("promedio")!;
 mostrarSeries(series);
 paragraph.innerHTML = `Seasons Average: ${promedioTemporadas(series)}`;
 
+

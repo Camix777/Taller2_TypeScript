@@ -13,26 +13,34 @@
 <body>
     <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar">
-                <img src="./logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
                 TV Series
             </a>
+           
         </div>
     </nav>
-    <div class="container-fluid" width="25" height="25">
-        <table class="table table-light table-fluid" width="5%" height="10">
-            <thead class="thead">
-                <tr>    
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Channel</th>
-                    <th scope="col">Seasons</th>
-                </tr>
-            </thead>
-            <tbody id="series">
-            </tbody>
-        </table>
-        <p id="promedio"></p>
+    <div class="container-fluid" >
+        <br>
+        <div class="row" id="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                <table class="table table-sm table-light">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="header">#</th>
+                            <th scope="col" class="header">Name</th>
+                            <th scope="col" class="header">Channel</th>
+                            <th scope="col" class="header">Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+                <p id="promedio"></p>
+            </div>
+            <div class="col-sm-7"></div>
+        </div>
     </div>
     
 </body>

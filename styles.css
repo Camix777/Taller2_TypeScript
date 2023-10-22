@@ -1,5 +1,11 @@
-.thead{
+.thead-light{
+    background-color: darkcyan;
+    color: black;
+}
+
+.header{
     background-color: white;
+    color:black
 }
 
 .navbar{
